@@ -7,3 +7,6 @@ deploy:
   file: KobayaPack.zip
   on:
     repo: Lee0701/KobayaPack
+    branches:
+      only:
+        - master
