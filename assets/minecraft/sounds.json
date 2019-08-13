@@ -1,0 +1,20 @@
+{
+	"t.hakihabara": {
+		"category": "master",
+		"sounds": [
+			"train/stations/hakihabara"
+		]
+	},
+	"d.alstom": {
+		"category": "master",
+		"sounds": [
+			"train/drivesounds/alstom"
+		]
+	},
+	"d.siemens": {
+		"category": "master",
+		"sounds": [
+			"train/drivesounds/siemens"
+		]
+	}
+}

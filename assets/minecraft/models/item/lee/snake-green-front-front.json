@@ -1,0 +1,6 @@
+{
+	"parent": "item/lee/snake-front-front",
+	"textures": {
+		"0": "items/lee/snake-green"
+	}
+}
