@@ -1,5 +1,5 @@
 language: minimal
-before_deploy: "cd $TRAVIS_BUILD_DIR && zip -r --exclude=.* obayaPack.zip ."
+before_deploy: "cd $TRAVIS_BUILD_DIR && zip -r --exclude=.* KobayaPack.zip ."
 deploy:
   provider: releases
   api_key:
