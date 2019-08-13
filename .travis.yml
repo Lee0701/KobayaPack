@@ -1,5 +1,5 @@
 language: minimal
-before_deploy: "cd $TRAVIS_BUILD_DIR && zip -r --exclude=.* $TRAVIS_BUILD_DIR/KobayaPack.zip ."
+before_deploy: "cd $TRAVIS_BUILD_DIR && git tag $(date +%y%m%d-%H%M%S) && zip -r --exclude=.* $TRAVIS_BUILD_DIR/KobayaPack.zip ."
 deploy:
   provider: releases
   api_key:
