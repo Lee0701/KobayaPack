@@ -4,6 +4,7 @@ deploy:
   provider: releases
   api_key:
     secure: pb/g9/dqdvU8vaON+FEtttP8ypS3ajeqFdC0459x5LrZeM/MMjxOBdhzyM2+5xphpyaeTSzm2n5GaxoqLSopuNjkJs4YQB9FpY/MUlySDmhW27PVY8QAarXin3I7NJtPPVt6PfaVXyhm5qlzU1l4SRanXZZTorM39JlZZjgRVuqcY0nM9QPqUzYOzvEa+LGQZFBMnf4itv5HSqQNEmGm9LvvxNoGfnvns/DASvgY80a53Pc6Mcg8yulVI8+TaX7YV8ECcBVEOkXf4QTKbUzqIwpt91ZsFm1Sh9d/nK6wUmXUhkulWPVDjMwoFeyqYSAIy3bULX1xdJRB7IlsNjGnHY8veAMERiH6KNe/o/26f7apu3VuB/YAVC/V7wfWotj47+7s3CbICrg5JUWUPDHxi3MQWfCyqHT10CSGlp8xzUTOwgYDfeh4CfJ2SFa18rCzq28olqyWtjXbVfVLEUV0BurZG6YWjC+rc/geLJKCrmmFm3PlVJiUhCPBE6CG8dBCc81W8iI96Qh9Fgml9PHgH3lfl/RskkScyEP4YbBczkHFvit5GhHiJErgwLxpBXmi0GlethwIVrqGVSSaaYxoY7nV/KyZy5BEveGriC2jxTnF9G9kyIwODlSYfj/zSb2T5jJvG2QhCYUrZGaYl5ih3N/ANw3RC5n7VK5+ijqocgY=
+  skip_cleanup: true
   file: ~/KobayaPack.zip
   on:
     repo: Lee0701/KobayaPack
