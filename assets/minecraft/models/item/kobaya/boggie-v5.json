@@ -1,8 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "items/kobaya/new-common",
-		"particle": "items/kobaya/common"
+		"2": "items/kobaya/new-common"
 	},
 	"elements": [
 		{
