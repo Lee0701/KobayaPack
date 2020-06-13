@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "items/kube/korail/k1000-g2-1",
+		"particle": "items/kube/korail/k1000-g2-1"
+	},
+	"elements": [
+		{
+			"from": [-1.3, 1.3, 8],
+			"to": [-1, 13.6, 12.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-3.3, 9.3, 2.1]},
+			"faces": {
+				"north": {"uv": [12.02406, 0, 12.02406, 7.967], "texture": "#0"},
+				"east": {"uv": [12.012, 3.96875, 9.9985, 7.99044], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"west": {"uv": [11.99262, 0, 16, 7.967], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"scale": [4, 4, 4]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [-3.3, 9.3, 1.9],
+			"children": [0]
+		}
+	]
+}
